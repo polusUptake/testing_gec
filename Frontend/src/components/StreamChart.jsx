@@ -36,7 +36,7 @@ const StreamChart = () => {
           },
         },
       }}
-      keys={["Raoul", "Josiane", "Marcel", "René", "Paul", "Jacques"]}
+      keys={["Temperature", "Pressure", "RPM", "Voltage", "Current", "Power"]}
       margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
       axisTop={null}
       axisRight={null}

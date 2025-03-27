@@ -14,6 +14,8 @@ import {
   Geography,
   Calendar,
   Stream,
+  Login,
+  Register,
 } from "./scenes";
 
 const AppRouter = () => {

@@ -1,16 +1,15 @@
-
 import { useState } from "react";
 import "./reg.css"; // Import the CSS file
 
-const Register = () => {  // ✅ Rename component to Register if it's for signup
+const Register = () => {  
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [confirmPassword, setConfirmPassword] = useState(""); // ✅ Added confirm password
+  const [confirmPassword, setConfirmPassword] = useState(""); /
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // ✅ Check if passwords match before submitting
+    
     if (password !== confirmPassword) {
       alert("Passwords do not match!");
       return;
@@ -26,7 +25,7 @@ const Register = () => {  // ✅ Rename component to Register if it's for signup
   return (
     <div className="login-container">
       <div className="login-box">
-        <h2>REGISTER</h2>  {/* ✅ Changed text to 'REGISTER' */}
+        <h2>REGISTER</h2>  
         <form onSubmit={handleSubmit}>
           <input
             type="text"
@@ -52,11 +51,10 @@ const Register = () => {  // ✅ Rename component to Register if it's for signup
             required
           />
 
-          <button type="submit">REGISTER</button> {/* ✅ Changed button text */}
-        </form>
+          <button type="submit">REGISTER</button> 
       </div>
     </div>
   );
 };
 
-export default Register; // ✅ Updated export name
+export default Register; 

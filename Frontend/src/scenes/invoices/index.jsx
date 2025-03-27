@@ -12,27 +12,27 @@ const Invoices = () => {
     { field: "id", headerName: "ID" },
     {
       field: "name",
-      headerName: "Name",
+      headerName: "Item",
       flex: 1,
       cellClassName: "name-column--cell",
     },
     {
       field: "phone",
-      headerName: "Phone Number",
+      headerName: "Status",
       flex: 1,
     },
     {
       field: "email",
-      headerName: "Email",
+      headerName: "Technician ID",
       flex: 1,
     },
     {
       field: "cost",
-      headerName: "Cost",
+      headerName: "Model no.",
       flex: 1,
       renderCell: (params) => (
         <Typography color={colors.greenAccent[500]}>
-          ${params.row.cost}
+          {params.row.cost}
         </Typography>
       ),
     },
