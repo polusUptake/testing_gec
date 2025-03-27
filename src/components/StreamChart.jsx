@@ -1,4 +1,4 @@
-import { ResponsiveStream } from "@nivo/stream";
+import { ResponsiveStream } from "frontend/node_modules/@nivo/stream/src";
 import { mockStreamData as data } from "../data/mockData";
 import { tokens } from "../theme";
 import { useTheme } from "@mui/material";

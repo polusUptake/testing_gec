@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useTheme } from "@emotion/react";
+import { useTheme } from "../../../../frontend/node_modules/@emotion/react/dist/declarations/src";
 import { tokens } from "../theme";
 import {
   Accordion,

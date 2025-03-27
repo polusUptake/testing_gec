@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { ResponsiveBar } from "@nivo/bar";
+import { ResponsiveBar } from "frontend/node_modules/@nivo/bar/src";
 import { mockBarData as data } from "../data/mockData";
 import { tokens } from "../theme";
 import { useTheme } from "@mui/material";

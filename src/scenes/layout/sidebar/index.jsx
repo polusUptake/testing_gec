@@ -2,7 +2,7 @@
 import { Avatar, Box, IconButton, Typography, useTheme } from "@mui/material";
 import { useContext, useState } from "react";
 import { tokens } from "../../../theme";
-import { Menu, MenuItem, Sidebar } from "react-pro-sidebar";
+import { Menu, MenuItem, Sidebar } from "react-pro-sidebar/dist";
 import {
   BarChartOutlined,
   CalendarTodayOutlined,
