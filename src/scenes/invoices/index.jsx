@@ -44,7 +44,7 @@ const Invoices = () => {
   ];
   return (
     <Box m="20px">
-      <Header title="INVOICES" subtitle="List of Invoice Balances" />
+      <Header title="Tickets" />
       <Box
         mt="40px"
         height="75vh"
