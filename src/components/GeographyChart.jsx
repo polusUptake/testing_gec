@@ -33,18 +33,6 @@ const GeographyChart = ({ isDashboard = false }) => {
             },
           },
         },
-        tooltip: {
-          container: {
-            background: colors.primary[400],
-            color: colors.gray[100],
-          },
-        },
-        labels: {
-          text: {
-            fill: colors.gray[100],
-            fontSize: 14,
-          }
-        },
         legends: {
           text: {
             fill: colors.gray[100],
@@ -62,10 +50,6 @@ const GeographyChart = ({ isDashboard = false }) => {
       projectionRotation={[0, 0, 0]}
       borderWidth={1.5}
       borderColor="#ffffff"
-
-      enableLabels={true}
-      labelTextColor={colors.gray[100]}
-
       legends={
         !isDashboard
           ? [

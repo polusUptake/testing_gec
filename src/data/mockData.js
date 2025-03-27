@@ -373,7 +373,7 @@ export const mockTransactions = [
 export const mockBarData = [
   {
     country: "AD",
-    "CNC1": 137,
+    "hot dog": 137,
     "hot dogColor": "hsl(229, 70%, 50%)",
     burger: 96,
     burgerColor: "hsl(296, 70%, 50%)",
@@ -384,7 +384,7 @@ export const mockBarData = [
   },
   {
     country: "AE",
-    "CNC2": 55,
+    "hot dog": 55,
     "hot dogColor": "hsl(307, 70%, 50%)",
     burger: 28,
     burgerColor: "hsl(111, 70%, 50%)",
@@ -395,7 +395,7 @@ export const mockBarData = [
   },
   {
     country: "AF",
-    "Robot1": 109,
+    "hot dog": 109,
     "hot dogColor": "hsl(72, 70%, 50%)",
     burger: 23,
     burgerColor: "hsl(96, 70%, 50%)",
@@ -406,7 +406,7 @@ export const mockBarData = [
   },
   {
     country: "AG",
-    "Robot2": 133,
+    "hot dog": 133,
     "hot dogColor": "hsl(257, 70%, 50%)",
     burger: 52,
     burgerColor: "hsl(326, 70%, 50%)",
@@ -417,7 +417,7 @@ export const mockBarData = [
   },
   {
     country: "AI",
-    "Conveyor1": 81,
+    "hot dog": 81,
     "hot dogColor": "hsl(190, 70%, 50%)",
     burger: 80,
     burgerColor: "hsl(325, 70%, 50%)",
@@ -428,7 +428,7 @@ export const mockBarData = [
   },
   {
     country: "AL",
-    "Conveyor2": 66,
+    "hot dog": 66,
     "hot dogColor": "hsl(208, 70%, 50%)",
     burger: 111,
     burgerColor: "hsl(334, 70%, 50%)",
@@ -439,7 +439,7 @@ export const mockBarData = [
   },
   {
     country: "AM",
-    "Robot2": 80,
+    "hot dog": 80,
     "hot dogColor": "hsl(87, 70%, 50%)",
     burger: 47,
     burgerColor: "hsl(141, 70%, 50%)",
@@ -560,163 +560,163 @@ export const mockPieData = [
 
 export const mockLineData = [
   {
-    id: "Conveyor",
+    id: "japan",
     color: tokens("dark").greenAccent[500],
     data: [
       {
-        x: "0",
+        x: "plane",
         y: 101,
       },
       {
-        x: "5k",
+        x: "helicopter",
         y: 75,
       },
       {
-        x: "10k",
+        x: "boat",
         y: 36,
       },
       {
-        x: "15k",
+        x: "train",
         y: 216,
       },
       {
-        x: "20k",
+        x: "subway",
         y: 35,
       },
       {
-        x: "25k",
+        x: "bus",
         y: 236,
       },
       {
-        x: "30k",
+        x: "car",
         y: 88,
       },
       {
-        x: "35k",
+        x: "moto",
         y: 232,
       },
       {
-        x: "40k",
+        x: "bicycle",
         y: 281,
       },
       {
-        x: "45k",
+        x: "horse",
         y: 1,
       },
       {
-        x: "50k",
+        x: "skateboard",
         y: 35,
       },
       {
-        x: "55k",
+        x: "others",
         y: 14,
       },
     ],
   },
   {
-    id: "CNC lathe",
+    id: "france",
     color: tokens("dark").blueAccent[300],
     data: [
       {
-        x: "0",
+        x: "plane",
         y: 212,
       },
       {
-        x: "5k",
+        x: "helicopter",
         y: 190,
       },
       {
-        x: "10k",
+        x: "boat",
         y: 270,
       },
       {
-        x: "15k",
+        x: "train",
         y: 9,
       },
       {
-        x: "20k",
+        x: "subway",
         y: 75,
       },
       {
-        x: "25k",
+        x: "bus",
         y: 175,
       },
       {
-        x: "30k",
+        x: "car",
         y: 33,
       },
       {
-        x: "35k",
+        x: "moto",
         y: 189,
       },
       {
-        x: "40k",
+        x: "bicycle",
         y: 97,
       },
       {
-        x: "45k",
+        x: "horse",
         y: 87,
       },
       {
-        x: "50k",
+        x: "skateboard",
         y: 299,
       },
       {
-        x: "55k",
+        x: "others",
         y: 251,
       },
     ],
   },
   {
-    id: "Bulldozer",
+    id: "us",
     color: tokens("dark").redAccent[200],
     data: [
       {
-        x: "0",
+        x: "plane",
         y: 191,
       },
       {
-        x: "5k",
+        x: "helicopter",
         y: 136,
       },
       {
-        x: "10k",
+        x: "boat",
         y: 91,
       },
       {
-        x: "15k",
+        x: "train",
         y: 190,
       },
       {
-        x: "20k",
+        x: "subway",
         y: 211,
       },
       {
-        x: "25k",
+        x: "bus",
         y: 152,
       },
       {
-        x: "30k",
+        x: "car",
         y: 189,
       },
       {
-        x: "35k",
+        x: "moto",
         y: 152,
       },
       {
-        x: "40k",
+        x: "bicycle",
         y: 8,
       },
       {
-        x: "45k",
+        x: "horse",
         y: 197,
       },
       {
-        x: "50k",
+        x: "skateboard",
         y: 107,
       },
       {
-        x: "55k",
+        x: "others",
         y: 170,
       },
     ],
