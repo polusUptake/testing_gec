@@ -8,14 +8,14 @@ import {
   useTheme,
 } from "@mui/material";
 import FullCalendar from "@fullcalendar/react";
-import dayGridPlugin from "@fullcalendar/daygrid/index.js";
-import timeGridPlugin from "@fullcalendar/timegrid/index.js";
-import interactionPlugin from "@fullcalendar/interaction/index.js";
-import listPlugin from "@fullcalendar/list/index.js";
+import dayGridPlugin from "@fullcalendar/daygrid";
+import timeGridPlugin from "@fullcalendar/timegrid";
+import interactionPlugin from "@fullcalendar/interaction";
+import listPlugin from "@fullcalendar/list";
 import { tokens } from "../../theme";
 import { useState } from "react";
 import { Header } from "../../components";
-import { formatDate } from "@fullcalendar/core/index.js";
+import { formatDate } from "@fullcalendar/core";
 
 const Calendar = () => {
   const theme = useTheme();

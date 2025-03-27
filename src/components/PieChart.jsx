@@ -1,4 +1,4 @@
-import { ResponsivePie } from "frontend/node_modules/@nivo/pie/src";
+import { ResponsivePie } from "@nivo/pie";
 import { tokens } from "../theme";
 import { useTheme } from "@mui/material";
 import { mockPieData as data } from "../data/mockData";
