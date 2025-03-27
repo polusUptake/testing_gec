@@ -4,22 +4,18 @@ import { useContext, useState } from "react";
 import { tokens } from "../../../theme";
 import { Menu, MenuItem, Sidebar } from "react-pro-sidebar/dist";
 import {
-  BarChartOutlined,
+
   CalendarTodayOutlined,
-  ContactsOutlined,
   DashboardOutlined,
-  DonutLargeOutlined,
-  HelpOutlineOutlined,
-  MapOutlined,
+  Engineering,
   MenuOutlined,
-  PeopleAltOutlined,
-  PersonOutlined,
-  ReceiptOutlined,
-  TimelineOutlined,
-  WavesOutlined,
+  PrecisionManufacturing,
+ 
+  ShowChart,
+  
 } from "@mui/icons-material";
-import avatar from "../../../assets/images/avatar.png";
-import logo from "../../../assets/images/logo.png";
+import soham from "../../../assets/images/soham.jpg";
+import crossword1 from "../../../assets/images/crossword1.jpg";
 import Item from "./Item";
 import { ToggledContext } from "../../../App";
 
@@ -67,16 +63,16 @@ const SideBar = () => {
               >
                 <img
                   style={{ width: "30px", height: "30px", borderRadius: "8px" }}
-                  src={logo}
+                  src={crossword1}
                   alt="Argon"
                 />
                 <Typography
                   variant="h4"
                   fontWeight="bold"
                   textTransform="capitalize"
-                  color={colors.greenAccent[500]}
+                  color={colors.blueAccent[400]}
                 >
-                  Argon
+                  Maintenix
                 </Typography>
               </Box>
             )}
@@ -98,19 +94,19 @@ const SideBar = () => {
         >
           <Avatar
             alt="avatar"
-            src={avatar}
+            src={soham}
             sx={{ width: "100px", height: "100px" }}
           />
           <Box sx={{ textAlign: "center" }}>
             <Typography variant="h3" fontWeight="bold" color={colors.gray[100]}>
-              Tony Stark
+              Admin
             </Typography>
             <Typography
               variant="h6"
               fontWeight="500"
-              color={colors.greenAccent[500]}
+              color={colors.blueAccent[400]}
             >
-              VP Fancy Admin
+              super admin
             </Typography>
           </Box>
         </Box>
@@ -154,22 +150,22 @@ const SideBar = () => {
           }}
         >
           <Item
-            title="Manage Team"
+            title="Equipment"
             path="/team"
             colors={colors}
-            icon={<PeopleAltOutlined />}
+            icon={<PrecisionManufacturing />}
           />
           <Item
-            title="Contacts Information"
+            title="Analytics"
             path="/contacts"
             colors={colors}
-            icon={<ContactsOutlined />}
+            icon={<ShowChart />}
           />
           <Item
-            title="Invoices Balances"
+            title="Tickets"
             path="/invoices"
             colors={colors}
-            icon={<ReceiptOutlined />}
+            icon={<Engineering />}
           />
         </Menu>
         <Typography
@@ -190,31 +186,21 @@ const SideBar = () => {
             },
           }}
         >
-          <Item
-            title="Profile Form"
-            path="/form"
-            colors={colors}
-            icon={<PersonOutlined />}
-          />
+          
           <Item
             title="Calendar"
             path="/calendar"
             colors={colors}
             icon={<CalendarTodayOutlined />}
           />
-          <Item
-            title="FAQ Page"
-            path="/faq"
-            colors={colors}
-            icon={<HelpOutlineOutlined />}
-          />
+          
         </Menu>
         <Typography
           variant="h6"
           color={colors.gray[300]}
           sx={{ m: "15px 0 5px 20px" }}
         >
-          {!collapsed ? "Charts" : " "}
+          
         </Typography>
         <Menu
           menuItemStyles={{
@@ -227,36 +213,7 @@ const SideBar = () => {
             },
           }}
         >
-          <Item
-            title="Bar Chart"
-            path="/bar"
-            colors={colors}
-            icon={<BarChartOutlined />}
-          />
-          <Item
-            title="Pie Chart"
-            path="/pie"
-            colors={colors}
-            icon={<DonutLargeOutlined />}
-          />
-          <Item
-            title="Line Chart"
-            path="/line"
-            colors={colors}
-            icon={<TimelineOutlined />}
-          />
-          <Item
-            title="Geography Chart"
-            path="/geography"
-            colors={colors}
-            icon={<MapOutlined />}
-          />
-          <Item
-            title="Stream Chart"
-            path="/stream"
-            colors={colors}
-            icon={<WavesOutlined />}
-          />
+          
         </Menu>
       </Box>
     </Sidebar>
