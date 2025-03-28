@@ -2,9 +2,9 @@
 ### Team members: Reuel Luis (9359587415)(Email:reuel14luis@gmail.com), Johan Almeida (9529654736)(email:almeidajohan005@gmail.com), Soham Ambudkar (7840974855)(email:sambudkar78@gmail.com)
 
 # Contribution
-Johan: Backend - authentication, feature implementation
-Reuel Luis: Frontend - dashboard, visual representation of analytics
-Soham:Frontend - login, registration, equipment data
+- Johan: Backend - authentication, feature implementation
+- Reuel Luis: Frontend - dashboard, visual representation of analytics
+- Soham:Frontend - login, registration, equipment data
 
 ## Folder structure
 - frontend: "components" used for analytics, "data" preloaded data for demonstration, "scenes" containing the ui elements used, "router" to route pages
