@@ -99,14 +99,14 @@ const SideBar = () => {
           />
           <Box sx={{ textAlign: "center" }}>
             <Typography variant="h3" fontWeight="bold" color={colors.gray[100]}>
-              Admin
+              Soham Ambudkar
             </Typography>
             <Typography
               variant="h6"
               fontWeight="500"
               color={colors.blueAccent[400]}
             >
-              super admin
+              Admin
             </Typography>
           </Box>
         </Box>
